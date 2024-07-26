@@ -37,6 +37,7 @@ function loginUserMessage(username = "sam"){
 
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage()) //output undefined
 
 
 function calculateCartPrice(val1, val2, ...num1){
