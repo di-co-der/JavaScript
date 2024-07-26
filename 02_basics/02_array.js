@@ -30,7 +30,7 @@ console.log(Array.isArray("Divyansh"))
 //converting above into array
 console.log(Array.from("Divyansh"))
 
-//interseting case
+//interesting case
 console.log(Array.from({name: "Divyansh"})) // you have to specify ki key ka ARRAY bnana hai ya value ka
 
 let score1 = 100
