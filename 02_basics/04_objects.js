@@ -22,6 +22,7 @@ const regularUser = {
 
 // console.log(regularUser)
 // console.log(regularUser.fullname.userfullname.firstName)
+console.log(regularUser.fullname ? (regularUser.fullname.userfullname.firstName) : console.log("enter name"));
 
 //combining of objects
 
@@ -32,16 +33,16 @@ const obj3 = {obj1, obj2} // problem
 
 /**********Important*************/
 const obj4 = Object.assign({}, obj1, obj2) // ye "{}" target hai aur baaki ke source
-// console.log(obj4);
+console.log(obj4);
 
 // /**********Most used syntax************/
 // //spread method
-// const obj5 = {...obj1, ...obj2}
-// console.log(obj5)
+const obj5 = {...obj1, ...obj2}
+console.log(obj5)
 
 // /***************** most important used in database ***************/
 
-// //when data comes from data base then you have array of objects like :-
+// //when data comes from database then you have array of objects like :-
 
 // const users = [
 //     {
@@ -68,11 +69,6 @@ const obj4 = Object.assign({}, obj1, obj2) // ye "{}" target hai aur baaki ke so
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); //to check this property is present or not
 
-
-
-
-
-
 /*********Destructuring of objects************/
 /*********IMPORTANT************/
 
@@ -97,3 +93,19 @@ const navbar = ({company}) => {
 }
 navbar(company = "hitesh")
 
+//API => Apna kaam kisi aur pr daal dena. Generally in JSON format like :
+
+// {
+//     "user" : "Raghav",
+//     "email" : "jsahcio@gmail.com",
+//     "num" : "901010922"
+// }
+
+// [
+//     {},
+//     {},
+//     {},
+//     {},
+// ]
+
+// api :  url: 'https://randomuser.me/api/' 
