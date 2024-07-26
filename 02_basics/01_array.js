@@ -38,12 +38,12 @@ console.log(typeof newarray);
 //Slice, splice
 
 console.log("A ", myarr2)
-const myn1 = myarr2.slice(0,3);
+const myn1 = myarr2.slice(1,3); //array.slice(start, end)
 console.log( myn1)
-console.log( myarr2)
+console.log( myarr2) //doest not change the array
 
 
 console.log("B ", myarr2)
-const myn2 = myarr2.splice(0,3);
+const myn2 = myarr2.splice(0,3); // array.splice(start, deleteCount, item1, item2, ...);
 console.log( myn2)
-console.log( myarr2)
+console.log( myarr2) //changes the previous array
