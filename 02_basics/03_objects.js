@@ -1,6 +1,6 @@
 //object can declare using two ways - by literals and by using constructor
 
-//singleton - when u declare like constructor then it is singleton
+//singleton - when u declare like constructor then it is singleton, eg:- object.create()
 
 //object literal
 const user = {
@@ -63,7 +63,7 @@ console.log(user.greeting());
 console.log(user.greeting);
 
 user.greeting2 = function(){
-    console.log(`hello js user, ${this["full name"]} `); // uss object ko refernce lene ke liye this ka use krte hain
+    console.log(`hello js user, ${this["full name"]} `); // uss object ko refernce lene ke liye this ka use krte hain, string interpolation
 }
 
 console.log(user.greeting2());
