@@ -1,7 +1,7 @@
 // const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
-// const values = coding.forEach( (item) => {
+// const values = coding.forEach( (item) => {  //foreach doesnot return value
 //     //console.log(item);
 //     return item
 // } )
@@ -10,10 +10,12 @@
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// const newNums = myNums.filter( (num) => {
+// const newNums = myNums.filter( (num) => { // if you don't open scope i.e {} then you don't have to write return keyword
 //     return num > 4
 // } )
 
+
+//achieve above using foreach loop
 // const newNums = []
 
 // myNums.forEach( (num) => {
@@ -42,4 +44,4 @@ const books = [
   userBooks = books.filter( (bk) => { 
     return bk.publish >= 1995 && bk.genre === "History"
 })
-  console.log(userBooks);
+  console.log(userBooks); 
