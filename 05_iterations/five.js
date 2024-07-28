@@ -1,6 +1,6 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){
+// coding.forEach( function (val){   //call back function ka naam nhi hota
 //     console.log(val);
 // } )
 
@@ -12,7 +12,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item);
 // }
 
-// coding.forEach(printMe)
+// coding.forEach(printMe)  //we do not put printme() because we only give reference to it not execute it 
 
 // coding.forEach( (item, index, arr)=> {
 //     console.log(item, index, arr);
