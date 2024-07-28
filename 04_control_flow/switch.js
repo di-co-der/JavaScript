@@ -12,7 +12,7 @@ const month = "march"
 switch (month) {
     case "jan":
         console.log("January");
-        break;
+        break; //if break is not written then all the code below the break will be executed except the default 
     case "feb":
         console.log("feb");
         break;
