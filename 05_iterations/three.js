@@ -5,7 +5,7 @@
 
 const arr = [1, 2, 3, 4, 5]
 
-for (const num of arr) {
+for (const num of arr) { //const iterator of object
     //console.log(num);
 }
 
@@ -14,7 +14,7 @@ for (const greet of greetings) {
     //console.log(`Each char is ${greet}`)
 }
 
-// Maps
+// Maps has unique values
 
 const map = new Map()
 map.set('IN', "India")
